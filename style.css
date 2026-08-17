@@ -1,0 +1,32 @@
+:root{--ink:#1a1a1a;--gray:#5f6b60;--line:#d8ded9;--accent:#4a7c59;--tint:#f6f8f6}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff}
+main{max-width:56rem;margin:0 auto;padding:1rem 1rem 3rem}
+header.site,footer.site{max-width:56rem;margin:0 auto;padding:.9rem 1rem}
+header.site{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--accent)}
+.brand{font-weight:700;font-size:1.05rem;color:var(--accent);text-decoration:none}
+header.site nav a{margin-left:.9rem;font-size:.9rem}
+footer.site{border-top:1px solid var(--line);margin-top:2rem;color:var(--gray);font-size:.85rem}
+a{color:var(--accent)}
+h1{font-size:1.5rem;line-height:1.25;margin:1.1rem 0 .4rem}
+h2{font-size:1.15rem;margin:1.9rem 0 .4rem;padding-bottom:.2rem;border-bottom:1px solid var(--line)}
+p.lead{font-size:1.02rem;margin:.3rem 0 .9rem}
+p.fine{color:var(--gray);font-size:.85rem;margin:.35rem 0 .7rem}
+.gapnote{background:var(--tint);border-left:3px solid var(--accent);padding:.6rem .8rem;font-size:.9rem;margin:.8rem 0}
+.cropnote{background:var(--tint);border-left:3px solid var(--accent);padding:.6rem .8rem;font-size:.92rem;margin:.8rem 0}
+.croplinks{font-size:.92rem;line-height:1.9}
+.gap{color:var(--gray)}
+table.data{border-collapse:collapse;width:100%;font-size:.9rem;margin:.5rem 0 1rem;display:block;overflow-x:auto}
+table.data th{background:var(--accent);color:#fff;text-align:left;font-size:.82rem;padding:.45rem .55rem;white-space:nowrap}
+table.data td{padding:.42rem .55rem;border-bottom:1px solid var(--line);white-space:nowrap}
+table.data td:first-child{white-space:normal;font-weight:600}
+table.data tbody tr:nth-child(even){background:var(--tint)}
+.cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:.6rem .9rem;border-radius:5px;font-weight:600;font-size:.95rem}
+.funnel{margin-top:1.6rem;padding:.9rem;background:var(--tint);border-radius:6px}
+.funnel h2{margin-top:0;border:0}
+.sources{margin-top:2rem;font-size:.88rem}
+.sources li{margin-bottom:.45rem}
+.picker{display:flex;flex-wrap:wrap;gap:.8rem;margin:.8rem 0}
+.picker label{font-size:.9rem;font-weight:600}
+.picker select{display:block;margin-top:.2rem;padding:.45rem;font-size:1rem;min-width:11rem;border:1px solid var(--line);border-radius:4px;background:#fff}
+@media(min-width:40rem){h1{font-size:1.9rem}main{padding:1.2rem 1.2rem 4rem}}
