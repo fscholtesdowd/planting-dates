@@ -30,5 +30,7 @@ table.data tbody tr:nth-child(even){background:var(--tint)}
 .sources li{margin-bottom:.45rem}
 .picker{display:flex;flex-wrap:wrap;gap:.8rem;margin:.8rem 0}
 .picker label{font-size:.9rem;font-weight:600}
-.picker select{display:block;margin-top:.2rem;padding:.45rem;font-size:1rem;min-width:11rem;border:1px solid var(--line);border-radius:4px;background:#fff}
+.picker select,.picker input{display:block;margin-top:.2rem;padding:.45rem;font-size:1rem;min-width:11rem;border:1px solid var(--line);border-radius:4px;background:#fff}
+.zipresult{margin:.8rem 0;padding:.8rem;background:var(--tint);border-radius:6px}
+.zipresult.err{color:var(--gray);background:none;padding:0}
 @media(min-width:40rem){h1{font-size:1.9rem}main{padding:1.2rem 1.2rem 4rem}}
